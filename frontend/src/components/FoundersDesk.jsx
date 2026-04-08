@@ -16,11 +16,7 @@ const FoundersDesk = () => {
 
           <div className="text-white font-['Montserrat'] text-[14px] md:text-[15px] leading-[1.7] md:leading-[1.8] space-y-4 md:space-y-6">
             <p>
-              Big Cats Entertainment is a film production and content company based in Ahmedabad, founded by Neha Kshatriya and Pratik Choksi.
-            </p>
-
-            <p>
-              The company brings together a strong creative perspective with hands-on production expertise, enabling a seamless approach to filmmaking.
+              Big Cats Entertainment is a film production and content company based in Ahmedabad, founded by Neha Kshatriya and Pratik Choksi. The company brings together a strong creative perspective with hands-on production expertise, enabling a seamless approach to filmmaking.
             </p>
 
             <p>
