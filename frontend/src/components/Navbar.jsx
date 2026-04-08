@@ -29,9 +29,9 @@ const Navbar = () => {
       >
         <div className="max-w-[1400px] mx-auto px-4 md:px-6 py-4 md:py-5 flex items-center justify-between">
           <img
-            src="https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ge6i1qlo_2.png"
+            src="https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/15fuibcs_Big%20Cats%20Entertainment%20Logo%20Stylized%20Cat%20in%20Motion.png"
             alt="Big Cats Entertainment"
-            className="h-[40px] md:h-[50px] w-auto cursor-pointer transform hover:scale-105 transition-transform duration-300"
+            className="h-[45px] md:h-[55px] w-auto cursor-pointer transform hover:scale-105 transition-transform duration-300"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           />
 
