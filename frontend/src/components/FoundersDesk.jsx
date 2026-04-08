@@ -10,9 +10,6 @@ const FoundersDesk = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-start">
         {/* Left - Text */}
         <div className={`transition-all duration-800 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
-          <p className="text-[#C9A84C] font-['Montserrat'] font-bold text-[10px] md:text-[11px] uppercase tracking-[3px] md:tracking-[4px] mb-4 md:mb-6">
-            About Us
-          </p>
           <h2 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[32px] md:text-[48px] mb-6 md:mb-8">
             Our Story
           </h2>
