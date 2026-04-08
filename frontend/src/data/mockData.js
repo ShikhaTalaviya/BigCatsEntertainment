@@ -2,7 +2,7 @@ export const filmsData = [
   {
     title: 'Farzi',
     platform: 'Amazon Prime Video',
-    poster: 'https://images.unsplash.com/photo-1635805737707-575885ab0820?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzl8MHwxfHNlYXJjaHwyfHxtb3ZpZSUyMHBvc3RlcnxlbnwwfHx8fDE3NzU2NTI0MzZ8MA&ixlib=rb-4.1.0&q=85',
+    poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/j7417c3z_WhatsApp%20Image%202026-04-08%20at%201.38.06%20PM.jpeg',
     duration: '8 Episodes',
     releaseDate: '2023',
     genre: 'Thriller',
