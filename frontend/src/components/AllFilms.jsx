@@ -67,7 +67,7 @@ const AllFilms = () => {
               </div>
 
               {film.role && (
-                <p className="text-[#777777] font-['Montserrat'] text-[10px] md:text-[11px] mt-3 line-clamp-2">
+                <p className="text-[#777777] font-['Montserrat'] text-[10px] md:text-[11px] mt-3 whitespace-pre-line">
                   {film.role}
                 </p>
               )}

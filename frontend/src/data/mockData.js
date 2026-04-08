@@ -6,7 +6,7 @@ export const filmsData = [
     duration: '8 Episodes',
     releaseDate: '2023',
     genre: 'Thriller',
-    role: 'Assistant Direction — Neha Kshatriya',
+    role: 'Assistant Director — Neha Kshatriya',
   },
   {
     title: 'Umbro',
@@ -28,7 +28,7 @@ export const filmsData = [
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/4dv3vgfj_WhatsApp%20Image%202026-04-09%20at%2012.22.29%20AM.jpeg',
     releaseDate: '2018',
     genre: 'Drama',
-    role: 'Executive Producer — Pratik Choksi / Assistant Direction — Neha Kshatriya',
+    role: 'Assistant Director — Neha Kshatriya\nExecutive Producer — Pratik Choksi',
   },
   {
     title: 'Vandha Villas',
@@ -36,7 +36,7 @@ export const filmsData = [
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/w7dtr844_251d395d-276b-4008-b229-e94d28572a59.jpg',
     releaseDate: '2022',
     genre: 'Drama',
-    role: 'Executive Producer — Pratik Choksi / Assistant Direction — Neha Kshatriya',
+    role: 'Assistant Director — Neha Kshatriya\nExecutive Producer — Pratik Choksi',
   },
   {
     title: 'Ventilator',
@@ -66,7 +66,7 @@ export const filmsData = [
     platform: 'Coming Soon',
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ggoln5ii_WhatsApp%20Image%202026-04-08%20at%201.17_edited.jpg',
     comingSoon: true,
-    role: 'First Assistant Direction — Neha Kshatriya',
+    role: 'First Assistant Director — Neha Kshatriya',
   },
   {
     title: 'Family Circus',
