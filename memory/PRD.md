@@ -141,3 +141,15 @@ Frontend complete with all 8 sections, fully responsive, with placeholder images
 - Design follows exact specifications from Big Box Series style
 - No backend or CMS - pure frontend implementation
 - All film data stored in mockData.js
+
+## Latest Update (December 2025)
+**Design Theme Changed**: Updated from dark theme to light theme
+- Background: #0A0A0A → #FFFFFF (white)
+- Text colors: white → dark (#333333)
+- Card backgrounds: #111111 → white with shadows
+- Borders: #1C1C1C → #E5E5E5
+- Footer: #080808 → #F5F5F5
+- Maintained gold #C9A84C accent throughout
+- Updated navbar with shadow on scroll
+- Hero overlay changed from dark to light (30% white opacity)
+- All hover states and interactions preserved

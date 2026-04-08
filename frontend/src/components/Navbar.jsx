@@ -24,7 +24,7 @@ const Navbar = () => {
     <>
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? 'bg-[#0A0A0A]' : 'bg-transparent'
+          scrolled ? 'bg-white shadow-md' : 'bg-white bg-opacity-95'
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-6 py-5 flex items-center justify-between">
@@ -39,25 +39,25 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection('founders')}
-              className="text-white font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
+              className="text-[#333333] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
             >
               Founders
             </button>
             <button
               onClick={() => scrollToSection('films')}
-              className="text-white font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
+              className="text-[#333333] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
             >
               Work
             </button>
             <button
               onClick={() => scrollToSection('about')}
-              className="text-white font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
+              className="text-[#333333] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-white font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
+              className="text-[#333333] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#C9A84C] transition-colors duration-300"
             >
               Contact
             </button>
@@ -75,7 +75,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Overlay */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 bg-[#0A0A0A] z-50 flex flex-col items-center justify-center">
+        <div className="fixed inset-0 bg-white z-50 flex flex-col items-center justify-center">
           <button
             className="absolute top-6 right-6 text-[#C9A84C] text-3xl"
             onClick={() => setMobileMenuOpen(false)}

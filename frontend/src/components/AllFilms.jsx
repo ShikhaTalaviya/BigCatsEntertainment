@@ -10,7 +10,7 @@ const AllFilms = () => {
         <h2 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[38px] md:text-[48px]">
           All Films
         </h2>
-        <button className="text-[#C9A84C] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-white transition-colors duration-300 flex items-center gap-2">
+        <button className="text-[#C9A84C] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-[#0A0A0A] transition-colors duration-300 flex items-center gap-2">
           See All <span>→</span>
         </button>
       </div>
@@ -20,7 +20,7 @@ const AllFilms = () => {
         {filmsData.map((film, index) => (
           <div
             key={index}
-            className="bg-[#111111] border border-[#1C1C1C] rounded-sm overflow-hidden group hover:border-[#C9A84C] transition-all duration-300 opacity-0 animate-fadeIn"
+            className="bg-white border border-[#E5E5E5] rounded-sm overflow-hidden group hover:border-[#C9A84C] transition-all duration-300 opacity-0 animate-fadeIn shadow-sm"
             style={{ animationDelay: `${index * 100}ms`, animationFillMode: 'forwards' }}
           >
             {/* Poster */}
@@ -31,7 +31,7 @@ const AllFilms = () => {
                 className="w-full h-full object-cover"
               />
               {film.comingSoon && (
-                <div className="absolute top-4 left-4 bg-[#C9A84C] text-[#0A0A0A] font-['Montserrat'] text-[10px] font-bold uppercase px-3 py-1 rounded-sm">
+                <div className="absolute top-4 left-4 bg-[#C9A84C] text-white font-['Montserrat'] text-[10px] font-bold uppercase px-3 py-1 rounded-sm">
                   Coming Soon
                 </div>
               )}
@@ -45,11 +45,11 @@ const AllFilms = () => {
               <h3 className="text-[#C9A84C] font-['Playfair_Display'] font-semibold text-[18px] mb-2">
                 {film.title}
               </h3>
-              <p className="text-white font-['Montserrat'] text-[12px] mb-3">
+              <p className="text-[#333333] font-['Montserrat'] text-[12px] mb-3">
                 {film.platform}
               </p>
 
-              <div className="flex items-center gap-4 mb-3 text-[#777777] font-['Montserrat'] text-[11px]">
+              <div className="flex items-center gap-4 mb-3 text-[#666666] font-['Montserrat'] text-[11px]">
                 {film.duration && (
                   <div className="flex items-center gap-1">
                     <Clock className="w-3 h-3" />
@@ -71,7 +71,7 @@ const AllFilms = () => {
               )}
 
               {film.role && (
-                <p className="text-[#777777] font-['Montserrat'] text-[11px] mt-3">
+                <p className="text-[#666666] font-['Montserrat'] text-[11px] mt-3">
                   {film.role}
                 </p>
               )}

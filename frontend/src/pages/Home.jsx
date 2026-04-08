@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div className="bg-[#0A0A0A] min-h-screen">
+    <div className="bg-white min-h-screen">
       <Navbar />
       <Hero />
       <AllFilms />

@@ -38,7 +38,7 @@ const Hero = () => {
             className="w-full h-full bg-cover bg-center"
             style={{ backgroundImage: `url(${slide})` }}
           >
-            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div className="absolute inset-0 bg-white bg-opacity-30"></div>
           </div>
         </div>
       ))}
@@ -53,14 +53,14 @@ const Hero = () => {
         <h1 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[48px] md:text-[72px] text-center px-4 mb-4">
           BIG CATS ENTERTAINMENT
         </h1>
-        <p className="text-white font-['Montserrat'] text-[16px] text-center px-4 max-w-[600px]">
+        <p className="text-[#333333] font-['Montserrat'] text-[16px] text-center px-4 max-w-[600px]">
           Building and delivering cinema across platforms.
         </p>
 
         {/* Scroll Down */}
         <button
           onClick={scrollToFilms}
-          className="absolute bottom-12 flex flex-col items-center gap-2 text-[#C9A84C] font-['Montserrat'] text-[12px] uppercase tracking-wide animate-bounce cursor-pointer hover:text-white transition-colors duration-300"
+          className="absolute bottom-12 flex flex-col items-center gap-2 text-[#C9A84C] font-['Montserrat'] text-[12px] uppercase tracking-wide animate-bounce cursor-pointer hover:text-[#0A0A0A] transition-colors duration-300"
         >
           <span>Scroll Down</span>
           <ChevronDown className="w-5 h-5" />
@@ -68,7 +68,7 @@ const Hero = () => {
       </div>
 
       {/* Slide Counter */}
-      <div className="absolute bottom-12 right-12 z-10 text-white font-['Montserrat'] text-[12px]">
+      <div className="absolute bottom-12 right-12 z-10 text-[#333333] font-['Montserrat'] text-[12px]">
         {currentSlide + 1} / {slides.length}
       </div>
     </div>
