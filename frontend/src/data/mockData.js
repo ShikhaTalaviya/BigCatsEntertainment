@@ -12,6 +12,7 @@ export const filmsData = [
     title: 'Umbro',
     platform: 'Gujarati Film',
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ewfvc21u_84cf1c11-ab6d-4020-a4cc-ed0657f4b72d.jpg',
+    releaseDate: '2025',
     genre: 'Drama',
     role: 'Post Release Advisory — Pratik Choksi',
   },
@@ -19,6 +20,7 @@ export const filmsData = [
     title: 'Hari Om Hurry',
     platform: 'Gujarati Film',
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ggk6w3bl_WhatsApp%20Image%202026-04-08%20at%201.41.34%20PM.jpeg',
+    releaseDate: '2023',
     genre: 'Drama',
     role: 'Post Release Advisory — Pratik Choksi',
   },
@@ -34,7 +36,7 @@ export const filmsData = [
     title: 'Vandha Villas',
     platform: 'Gujarati Film',
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/w7dtr844_251d395d-276b-4008-b229-e94d28572a59.jpg',
-    releaseDate: '2022',
+    releaseDate: '2018',
     genre: 'Drama',
     role: 'Assistant Director — Neha Kshatriya\nExecutive Producer — Pratik Choksi',
   },
@@ -83,5 +85,8 @@ export const filmsData = [
     releaseDate: '2018',
     genre: 'Drama',
     role: 'Promotions — Pratik Choksi',
+  },
+];
+ Pratik Choksi',
   },
 ];
