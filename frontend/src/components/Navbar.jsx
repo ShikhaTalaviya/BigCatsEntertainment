@@ -28,12 +28,12 @@ const Navbar = () => {
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-6 py-5 flex items-center justify-between">
-          <div
-            className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[22px] cursor-pointer"
+          <img
+            src="https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ge6i1qlo_2.png"
+            alt="Big Cats Entertainment"
+            className="h-[50px] w-auto cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          >
-            BIG CATS ENTERTAINMENT
-          </div>
+          />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">

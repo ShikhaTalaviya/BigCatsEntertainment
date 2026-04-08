@@ -45,15 +45,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
-        <img
-          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 100'%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Playfair Display, serif' font-size='24' font-weight='700' fill='%23C9A84C'%3EBIG CATS ENTERTAINMENT%3C/text%3E%3C/svg%3E"
-          alt="Big Cats Entertainment"
-          className="w-[160px] mb-8"
-        />
-        <h1 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[48px] md:text-[72px] text-center px-4 mb-4">
-          BIG CATS ENTERTAINMENT
-        </h1>
-        <p className="text-white font-['Montserrat'] text-[16px] text-center px-4 max-w-[600px]">
+        <p className="text-white font-['Montserrat'] text-[18px] md:text-[20px] text-center px-4 max-w-[700px] leading-relaxed">
           Building and delivering cinema across platforms.
         </p>
 
