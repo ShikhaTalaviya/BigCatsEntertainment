@@ -4,23 +4,23 @@ const WhatWeDo = () => {
   const services = [
     {
       title: 'Film Production',
-      image: 'https://images.unsplash.com/photo-1625690303837-654c9666d2d0',
+      image: 'https://images.unsplash.com/photo-1693939633953-ca699d23b463?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxmaWxtJTIwcHJvZHVjdGlvbiUyMGNhbWVyYSUyMGNpbmVtYXRvZ3JhcGh5fGVufDB8fHx8MTc3NTY3MDEwMXww&ixlib=rb-4.1.0&q=85',
     },
     {
       title: 'Creative Development',
-      image: 'https://images.unsplash.com/photo-1632187981988-40f3cbaeef5e',
+      image: 'https://images.pexels.com/photos/8035286/pexels-photo-8035286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     },
     {
       title: 'Film Marketing',
-      image: 'https://images.pexels.com/photos/5662857/pexels-photo-5662857.png',
+      image: 'https://images.unsplash.com/photo-1638961862991-bd7ee1c9ecfc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxmaWxtJTIwcHJvZHVjdGlvbiUyMGNhbWVyYSUyMGNpbmVtYXRvZ3JhcGh5fGVufDB8fHx8MTc3NTY3MDEwMXww&ixlib=rb-4.1.0&q=85',
     },
     {
       title: 'Content Syndication',
-      image: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba',
+      image: 'https://images.unsplash.com/photo-1760404700113-5d593b32280a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwyfHxzdHJlYW1pbmclMjBwbGF0Zm9ybSUyMGNvbnRlbnQlMjBkaXN0cmlidXRpb258ZW58MHx8fHwxNzc1NjcwMTEwfDA&ixlib=rb-4.1.0&q=85',
     },
     {
       title: 'Brand & Content Consulting',
-      image: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26',
+      image: 'https://images.unsplash.com/photo-1765438864227-288900d09d26?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGNvbnN1bHRhdGlvbiUyMG1lZXRpbmclMjBzdHJhdGVneXxlbnwwfHx8fDE3NzU2NzAxMTF8MA&ixlib=rb-4.1.0&q=85',
     },
   ];
 
