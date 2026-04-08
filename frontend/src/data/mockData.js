@@ -33,7 +33,7 @@ export const filmsData = [
   {
     title: 'Vandha Villas',
     platform: 'Gujarati Film',
-    poster: 'https://images.pexels.com/photos/3137890/pexels-photo-3137890.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/w7dtr844_251d395d-276b-4008-b229-e94d28572a59.jpg',
     releaseDate: '2022',
     genre: 'Drama',
     role: 'Executive Producer — Pratik Choksi / Assistant Direction — Neha Kshatriya',
@@ -41,7 +41,7 @@ export const filmsData = [
   {
     title: 'Ventilator',
     platform: 'Gujarati Film',
-    poster: 'https://images.pexels.com/photos/18386912/pexels-photo-18386912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/rpbcivah_MV5BM2Y1NjExOTUtMmIxNC00ZDZhLWJiY2QtODYxMWJhNWQzZWY5XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg',
     genre: 'Drama',
     role: 'Post Release Advisory — Pratik Choksi',
   },
@@ -56,7 +56,7 @@ export const filmsData = [
   {
     title: 'Days of Tafree',
     platform: 'Gujarati Film',
-    poster: 'https://images.unsplash.com/photo-1707651628021-d218e7eeb43e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwzfHxjaW5lbWF0aWMlMjBkcmFtYXxlbnwwfHx8fDE3NzU2NTQyMzB8MA&ixlib=rb-4.1.0&q=85',
+    poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/f0ldg9gq_4b2b5e9b-adc8-49ec-9871-0af4d279c884.jpg',
     releaseDate: '2016',
     genre: 'Comedy',
     role: 'Line Producer — Pratik Choksi',
@@ -71,7 +71,7 @@ export const filmsData = [
   {
     title: 'Family Circus',
     platform: 'Gujarati Film',
-    poster: 'https://images.pexels.com/photos/12838778/pexels-photo-12838778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/kxd6db79_Family_Circus_Official_Poster.jpg',
     releaseDate: '2019',
     genre: 'Comedy',
     role: 'Promotions — Pratik Choksi',
