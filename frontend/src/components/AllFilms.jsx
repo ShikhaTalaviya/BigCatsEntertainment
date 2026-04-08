@@ -6,13 +6,13 @@ const AllFilms = () => {
   return (
     <section id="films" className="py-20 px-6 max-w-[1400px] mx-auto">
       {/* Section Header */}
-      <div className="flex items-center justify-between mb-12">
-        <h2 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[38px] md:text-[48px]">
+      <div className="mb-12">
+        <h2 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[38px] md:text-[48px] mb-3">
           All Films
         </h2>
-        <button className="text-[#C9A84C] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-white transition-colors duration-300 flex items-center gap-2">
-          See All <span>→</span>
-        </button>
+        <p className="text-[#777777] font-['Montserrat'] text-[15px]">
+          A collective body of work across direction, production, and marketing
+        </p>
       </div>
 
       {/* Film Grid */}
