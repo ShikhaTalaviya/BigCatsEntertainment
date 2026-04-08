@@ -26,15 +26,10 @@ const WhatWeDo = () => {
 
   return (
     <section id="services" className="py-20 px-6">
-      <div className="max-w-[1400px] mx-auto mb-12 flex items-center justify-between flex-wrap gap-6">
+      <div className="max-w-[1400px] mx-auto mb-12">
         <h2 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[38px] md:text-[48px]">
           What We Do
         </h2>
-        <img
-          src="https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/nh1dhity_1.png"
-          alt="Big Cats Entertainment"
-          className="w-[180px] h-auto"
-        />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-0">
