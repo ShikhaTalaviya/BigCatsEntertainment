@@ -27,11 +27,11 @@ const Navbar = () => {
           scrolled ? 'bg-[#0A0A0A]' : 'bg-transparent'
         }`}
       >
-        <div className="max-w-[1400px] mx-auto px-6 py-5 flex items-center justify-between">
+        <div className="max-w-[1400px] mx-auto px-4 md:px-6 py-4 md:py-5 flex items-center justify-between">
           <img
             src="https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ge6i1qlo_2.png"
             alt="Big Cats Entertainment"
-            className="h-[50px] w-auto cursor-pointer"
+            className="h-[40px] md:h-[50px] w-auto cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           />
 

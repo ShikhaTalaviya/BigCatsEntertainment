@@ -28,17 +28,17 @@ const WhatWeDo = () => {
   ];
 
   return (
-    <section id="services" className="py-20 px-6" ref={ref}>
+    <section id="services" className="py-12 md:py-20 px-4 md:px-6" ref={ref}>
       <div className="max-w-[1100px] mx-auto">
-        <h2 className={`text-[#C9A84C] font-['Playfair_Display'] font-bold text-[38px] md:text-[48px] mb-12 transition-all duration-800 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <h2 className={`text-[#C9A84C] font-['Playfair_Display'] font-bold text-[32px] md:text-[48px] mb-8 md:mb-12 transition-all duration-800 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           What We Do
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {services.map((service, index) => (
             <div
               key={index}
-              className={`relative h-[240px] overflow-hidden group cursor-pointer rounded-sm transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
+              className={`relative h-[200px] md:h-[240px] overflow-hidden group cursor-pointer rounded-sm transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               {/* Background Image */}
@@ -51,8 +51,8 @@ const WhatWeDo = () => {
               <div className="absolute inset-0 bg-black bg-opacity-75 group-hover:bg-opacity-70 transition-all duration-500"></div>
 
               {/* Title */}
-              <div className="absolute inset-0 flex items-center justify-center p-6">
-                <h3 className="text-[#C9A84C] font-['Playfair_Display'] font-semibold text-[20px] text-center transition-colors duration-300">
+              <div className="absolute inset-0 flex items-center justify-center p-4 md:p-6">
+                <h3 className="text-[#C9A84C] font-['Playfair_Display'] font-semibold text-[18px] md:text-[20px] text-center transition-colors duration-300">
                   {service.title}
                 </h3>
               </div>
