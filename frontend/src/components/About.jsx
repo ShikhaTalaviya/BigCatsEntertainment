@@ -8,7 +8,7 @@ const About = () => {
           About Big Cats Entertainment
         </h2>
 
-        <div className="text-[#333333] font-['Montserrat'] text-[15px] leading-[1.9] space-y-8">
+        <div className="text-white font-['Montserrat'] text-[15px] leading-[1.9] space-y-8">
           <p>
             Big Cats Entertainment is a film production and content company based in Ahmedabad,
             founded by Neha Kshatriya and Pratik Choksi.

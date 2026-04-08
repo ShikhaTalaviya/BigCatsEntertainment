@@ -12,21 +12,21 @@ const Contact = () => {
         {/* Email */}
         <a
           href="mailto:bigcatsfilm@gmail.com"
-          className="text-[#C9A84C] font-['Playfair_Display'] font-semibold text-[28px] md:text-[36px] hover:text-[#0A0A0A] transition-colors duration-300 block mb-6"
+          className="text-[#C9A84C] font-['Playfair_Display'] font-semibold text-[28px] md:text-[36px] hover:text-white transition-colors duration-300 block mb-6"
         >
           bigcatsfilm@gmail.com
         </a>
 
         {/* Phone */}
-        <p className="text-[#333333] font-['Montserrat'] text-[16px] mb-4">+91 98248 44777</p>
+        <p className="text-white font-['Montserrat'] text-[16px] mb-4">+91 98248 44777</p>
 
         {/* Location */}
-        <p className="text-[#666666] font-['Montserrat'] text-[14px] mb-12">
+        <p className="text-[#777777] font-['Montserrat'] text-[14px] mb-12">
           Ahmedabad, Gujarat, India
         </p>
 
         {/* Divider */}
-        <div className="border-t border-[#E5E5E5] my-12"></div>
+        <div className="border-t border-[#1C1C1C] my-12"></div>
 
         {/* Founders Links */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -40,7 +40,7 @@ const Contact = () => {
                 href="https://m.imdb.com/name/nm9931377/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
+                className="text-[#777777] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
               >
                 IMDb <ExternalLink className="w-3 h-3" />
               </a>
@@ -48,7 +48,7 @@ const Contact = () => {
                 href="https://www.instagram.com/nehakshatriya844"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
+                className="text-[#777777] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
               >
                 Instagram <ExternalLink className="w-3 h-3" />
               </a>
@@ -65,7 +65,7 @@ const Contact = () => {
                 href="https://m.imdb.com/name/nm9400915/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
+                className="text-[#777777] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
               >
                 IMDb <ExternalLink className="w-3 h-3" />
               </a>
@@ -73,7 +73,7 @@ const Contact = () => {
                 href="https://www.instagram.com/choksi_pratik"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[#666666] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
+                className="text-[#777777] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300 flex items-center gap-1"
               >
                 Instagram <ExternalLink className="w-3 h-3" />
               </a>

@@ -13,7 +13,7 @@ const FoundersDesk = () => {
             Founders' Desk
           </h2>
 
-          <div className="text-[#333333] font-['Montserrat'] text-[15px] leading-[1.8] space-y-6">
+          <div className="text-white font-['Montserrat'] text-[15px] leading-[1.8] space-y-6">
             <p>
               <span className="text-[#C9A84C] font-semibold">Neha Kshatriya</span> and{' '}
               <span className="text-[#C9A84C] font-semibold">Pratik Choksi</span> are the
@@ -36,7 +36,7 @@ const FoundersDesk = () => {
               delivery.
             </p>
 
-            <button className="text-[#C9A84C] font-['Montserrat'] text-[13px] mt-4 hover:text-[#0A0A0A] transition-colors duration-300 inline-flex items-center gap-2">
+            <button className="text-[#C9A84C] font-['Montserrat'] text-[13px] mt-4 hover:text-white transition-colors duration-300 inline-flex items-center gap-2">
               Read More <span>→</span>
             </button>
           </div>

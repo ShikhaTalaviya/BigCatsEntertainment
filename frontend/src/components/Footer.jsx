@@ -9,34 +9,34 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#F5F5F5] border-t border-[#E5E5E5] py-12 px-6">
+    <footer className="bg-[#080808] border-t border-[#1C1C1C] py-12 px-6">
       <div className="max-w-[1400px] mx-auto">
         {/* Nav Links */}
         <div className="flex items-center justify-center gap-2 mb-8 flex-wrap">
           <button
             onClick={() => scrollToSection('founders')}
-            className="text-[#333333] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
+            className="text-white font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
           >
             Founders
           </button>
-          <span className="text-[#999999]">·</span>
+          <span className="text-[#777777]">·</span>
           <button
             onClick={() => scrollToSection('films')}
-            className="text-[#333333] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
+            className="text-white font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
           >
             Work
           </button>
-          <span className="text-[#999999]">·</span>
+          <span className="text-[#777777]">·</span>
           <button
             onClick={() => scrollToSection('about')}
-            className="text-[#333333] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
+            className="text-white font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
           >
             About
           </button>
-          <span className="text-[#999999]">·</span>
+          <span className="text-[#777777]">·</span>
           <button
             onClick={() => scrollToSection('contact')}
-            className="text-[#333333] font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
+            className="text-white font-['Montserrat'] text-[12px] hover:text-[#C9A84C] transition-colors duration-300"
           >
             Contact
           </button>
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-[#666666] font-['Montserrat'] text-[11px] text-center">
+        <p className="text-[#777777] font-['Montserrat'] text-[11px] text-center">
           © 2025 Big Cats Entertainment. All Rights Reserved.
         </p>
       </div>
