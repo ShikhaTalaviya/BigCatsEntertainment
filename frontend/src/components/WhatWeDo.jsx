@@ -15,7 +15,7 @@ const WhatWeDo = () => {
     },
     {
       title: 'Film Marketing',
-      image: 'https://images.unsplash.com/photo-1760404699753-1336aafd3d28?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHw0fHxmaWxtJTIwbW92aWUlMjBwb3N0ZXIlMjBtYXJrZXRpbmclMjBjaW5lbWElMjBhZHZlcnRpc2luZ3xlbnwwfHx8fDE3NzU2NzI3NTJ8MA&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1770341321517-20c750e8a138?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxjaW5lbWElMjBiaWxsYm9hcmQlMjBvdXRkb29yJTIwYWR2ZXJ0aXNpbmclMjBtb3ZpZSUyMHByb21vdGlvbnxlbnwwfHx8fDE3NzU2NzI4NjF8MA&ixlib=rb-4.1.0&q=85',
     },
     {
       title: 'Content Syndication',
