@@ -6,13 +6,13 @@ const AllFilms = () => {
   return (
     <section id="films" className="py-20 px-6 max-w-[1400px] mx-auto">
       {/* Section Header */}
-      <div className="mb-4">
-        <h2 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[42px] md:text-[48px] mb-3">
-          Experience
+      <div className="flex items-center justify-between mb-12">
+        <h2 className="text-[#C9A84C] font-['Playfair_Display'] font-bold text-[38px] md:text-[48px]">
+          All Films
         </h2>
-        <p className="text-[#777777] font-['Montserrat'] text-[14px] mb-12">
-          A collective body of work across direction, production, and marketing
-        </p>
+        <button className="text-[#C9A84C] font-['Montserrat'] text-[12px] uppercase tracking-wide hover:text-white transition-colors duration-300 flex items-center gap-2">
+          See All <span>→</span>
+        </button>
       </div>
 
       {/* Film Grid */}
@@ -49,8 +49,29 @@ const AllFilms = () => {
                 {film.platform}
               </p>
 
+              <div className="flex items-center gap-4 mb-3 text-[#777777] font-['Montserrat'] text-[11px]">
+                {film.duration && (
+                  <div className="flex items-center gap-1">
+                    <Clock className="w-3 h-3" />
+                    <span>{film.duration}</span>
+                  </div>
+                )}
+                {film.releaseDate && (
+                  <div className="flex items-center gap-1">
+                    <Calendar className="w-3 h-3" />
+                    <span>{film.releaseDate}</span>
+                  </div>
+                )}
+              </div>
+
+              {film.genre && (
+                <div className="inline-block bg-[#C9A84C] bg-opacity-10 border border-[#C9A84C] text-[#C9A84C] font-['Montserrat'] text-[11px] px-3 py-1 rounded-full">
+                  {film.genre}
+                </div>
+              )}
+
               {film.role && (
-                <p className="text-[#777777] font-['Montserrat'] text-[11px]">
+                <p className="text-[#777777] font-['Montserrat'] text-[11px] mt-3">
                   {film.role}
                 </p>
               )}
