@@ -9,7 +9,7 @@ export const filmsData = [
     role: 'Assistant Director — Neha Kshatriya',
   },
   {
-    title: 'Umbro',
+    title: 'Ubarro',
     platform: 'Gujarati Film',
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ewfvc21u_84cf1c11-ab6d-4020-a4cc-ed0657f4b72d.jpg',
     releaseDate: '2025',
@@ -17,7 +17,7 @@ export const filmsData = [
     role: 'Post Release Advisory — Pratik Choksi',
   },
   {
-    title: 'Hari Om Hurry',
+    title: 'Hurry Om Hurry',
     platform: 'Gujarati Film',
     poster: 'https://customer-assets.emergentagent.com/job_entertainment-gold/artifacts/ggk6w3bl_WhatsApp%20Image%202026-04-08%20at%201.41.34%20PM.jpeg',
     releaseDate: '2023',
